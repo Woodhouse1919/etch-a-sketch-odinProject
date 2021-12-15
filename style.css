@@ -12,11 +12,19 @@ body {
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-  width: 30vw;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  height: 75vh;
+  width: 50vw;
   margin-top: 20px;
   border: 1px solid red;
+}
+
+.grid {
+  border: 1px solid pink;
+}
+
+.focused {
+  background-color: black;
 }
