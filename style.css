@@ -22,12 +22,15 @@ h1 {
   height: 75vh;
   width: 50vw;
   margin-top: 20px;
-  border: 1px solid red;
+  border: 20px solid red;
+  border-bottom: 40px solid red;
+  border-radius: 5px;
 }
 
 .grid {
   border: 1px solid pink;
 }
+
 
 .active {
   background-color: black;
