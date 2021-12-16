@@ -11,6 +11,10 @@ body {
   height: 100vh;
 }
 
+h1 {
+  margin-bottom: 20px;
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(16, 1fr);

@@ -15,3 +15,10 @@ grid.forEach((gridItem) => {
     gridItem.classList.add('active')
   });
 });
+
+const clearButton = document.querySelector('button')
+clearButton.addEventListener('click', () => {
+  grid.forEach(gridItem => {
+    gridItem.classList.remove('active')
+  })
+})
